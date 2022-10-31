@@ -34,5 +34,8 @@ node-mon will listen to any changes will make in our files when we reRun it.
     "dev2": "nodemon  --exec ts-node src/index.ts"
 
 
-    
-
+##### Setting-up [mikroORM]
+mikroORM is actaully how we interact with the database, create table and set data, it all our database.
+install v4
+yarn add @mikro=orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg.......
+and [@mikro-orm/postgresql pg] it mean it postgresql i want to use for my database.
